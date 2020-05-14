@@ -126,7 +126,7 @@ document.addEventListener("click", async function (e) {
 
 function getMovieDetail(imdbid) {
      
-    return fetch(`http://www.omdbapi.com/?apiky=5809e0e0&i=${imdbid}`)
+    return fetch(`http://www.omdbapi.com/?apikey=5809e0e0&i=${imdbid}`)
         .then(detail => {
             
             if (!detail.ok) {
